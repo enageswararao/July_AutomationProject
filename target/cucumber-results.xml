@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="53.52">
+<testcase classname="Login Orange HRM application" name="Login Orange HRM application and navigate admin page" time="17.098">
+<system-out><![CDATA[Given user is logged with admin.............................................passed
+When Click on Admin  link...................................................passed
+Then verify the "System Users123" of the page...............................passed
+Then verify the pagecurrent url contains "viewSystemUsers"..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Orange HRM application" name="Login Orange HRM application and navigate PIM page" time="17.681">
+<system-out><![CDATA[Given user is logged with admin.............................................passed
+When Click on PIM  link.....................................................passed
+Then verify the "Employee Information" of the page..........................passed
+Then verify the pagecurrent url contains "viewEmployeeList".................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Orange HRM application" name="Login Orange HRM application and navigate Leave page" time="18.338">
+<system-out><![CDATA[Given user is logged with admin.............................................passed
+When Click on Leave  link...................................................passed
+Then verify the "Leave List" of the page....................................passed
+Then verify the pagecurrent url contains "viewLeaveList"....................passed
+]]></system-out>
+</testcase>
+</testsuite>

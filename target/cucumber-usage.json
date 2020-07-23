@@ -1,0 +1,170 @@
+[
+  {
+    "source": "^user is logged with admin$",
+    "steps": [
+      {
+        "name": "user is logged with admin",
+        "aggregatedDurations": {
+          "median": 5.236,
+          "average": 5.253666666
+        },
+        "durations": [
+          {
+            "duration": 5.236,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:6"
+          },
+          {
+            "duration": 5.552,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:6"
+          },
+          {
+            "duration": 4.973,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Admin  link$",
+    "steps": [
+      {
+        "name": "Click on Admin  link",
+        "aggregatedDurations": {
+          "median": 1.394,
+          "average": 1.394
+        },
+        "durations": [
+          {
+            "duration": 1.394,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify the {string} of the page",
+    "steps": [
+      {
+        "name": "verify the \"System Users123\" of the page",
+        "aggregatedDurations": {
+          "median": 0.011,
+          "average": 0.011
+        },
+        "durations": [
+          {
+            "duration": 0.011,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "verify the \"Employee Information\" of the page",
+        "aggregatedDurations": {
+          "median": 0.093,
+          "average": 0.093
+        },
+        "durations": [
+          {
+            "duration": 0.093,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:17"
+          }
+        ]
+      },
+      {
+        "name": "verify the \"Leave List\" of the page",
+        "aggregatedDurations": {
+          "median": 0.111,
+          "average": 0.111
+        },
+        "durations": [
+          {
+            "duration": 0.111,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify the pagecurrent url contains {string}",
+    "steps": [
+      {
+        "name": "verify the pagecurrent url contains \"viewSystemUsers\"",
+        "aggregatedDurations": {
+          "median": 0.011,
+          "average": 0.011
+        },
+        "durations": [
+          {
+            "duration": 0.011,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "verify the pagecurrent url contains \"viewEmployeeList\"",
+        "aggregatedDurations": {
+          "median": 0.008,
+          "average": 0.008
+        },
+        "durations": [
+          {
+            "duration": 0.008,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:18"
+          }
+        ]
+      },
+      {
+        "name": "verify the pagecurrent url contains \"viewLeaveList\"",
+        "aggregatedDurations": {
+          "median": 0.011,
+          "average": 0.011
+        },
+        "durations": [
+          {
+            "duration": 0.011,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on PIM  link$",
+    "steps": [
+      {
+        "name": "Click on PIM  link",
+        "aggregatedDurations": {
+          "median": 2.192,
+          "average": 2.192
+        },
+        "durations": [
+          {
+            "duration": 2.192,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Leave  link$",
+    "steps": [
+      {
+        "name": "Click on Leave  link",
+        "aggregatedDurations": {
+          "median": 1.872,
+          "average": 1.872
+        },
+        "durations": [
+          {
+            "duration": 1.872,
+            "location": "file:///C:/Users/ammulu123/Jan2020/HRMOrangDemoProject/src/test/resources/Features/dashboard.feature:22"
+          }
+        ]
+      }
+    ]
+  }
+]

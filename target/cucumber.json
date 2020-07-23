@@ -1,0 +1,334 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5236000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is logged with admin",
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.user_is_logged_with_admin()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T01:01:21.758Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10023000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.init()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login Orange HRM application and navigate admin page",
+        "description": "",
+        "id": "login-orange-hrm-application;login-orange-hrm-application-and-navigate-admin-page",
+        "after": [
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1394000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Admin  link",
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.click_on_Admin_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the \"System Users123\" of the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"System Users123\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.verify_the_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify the pagecurrent url contains \"viewSystemUsers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"viewSystemUsers\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.verify_the_pagecurrent_url_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5552000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is logged with admin",
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.user_is_logged_with_admin()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T01:01:38.889Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9513000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.init()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login Orange HRM application and navigate PIM page",
+        "description": "",
+        "id": "login-orange-hrm-application;login-orange-hrm-application-and-navigate-pim-page",
+        "after": [
+          {
+            "result": {
+              "duration": 312000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2192000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on PIM  link",
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.click_on_PIM_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify the \"Employee Information\" of the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee Information\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.verify_the_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify the pagecurrent url contains \"viewEmployeeList\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"viewEmployeeList\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.verify_the_pagecurrent_url_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4973000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is logged with admin",
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.user_is_logged_with_admin()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T01:01:56.583Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11115000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.init()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login Orange HRM application and navigate Leave page",
+        "description": "",
+        "id": "login-orange-hrm-application;login-orange-hrm-application-and-navigate-leave-page",
+        "after": [
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1872000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on Leave  link",
+            "match": {
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.click_on_Leave_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verify the \"Leave List\" of the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Leave List\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.verify_the_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "verify the pagecurrent url contains \"viewLeaveList\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"viewLeaveList\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.hrm.stepdefinitions.DashBoardStepdefinitions.verify_the_pagecurrent_url_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Login Orange HRM application",
+    "description": " As a test engeneer to validate login functionality of the Orange HRM application with all the combinations",
+    "id": "login-orange-hrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/dashboard.feature",
+    "tags": []
+  }
+]
